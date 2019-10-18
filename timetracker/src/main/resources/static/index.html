@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+}
+}
+</style>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openTab('get')">Get Time Records</button>
+  <button class="w3-bar-item w3-button" onclick="openTab('create')">Create Time Record</button>
+</div>
+
+
+<div id="get" class="w3-container city" style="display:none">
+  <form action="/action_page.php">
+	<label for="lname">Email ID</label>
+	<input type="text" id="eid" name="emailid" placeholder="Your Email ID">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div id="create" class="w3-container city" style="display:none">
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Start Time</label>
+    <input type="text" id="stime" name="starttime" placeholder="Your Start Time..">
+
+    <label for="lname">End Time</label>
+    <input type="text" id="etime" name="endtime" placeholder="Your End Time..">
+
+    <label for="lname">Email ID</label>
+    <input type="text" id="eid" name="emailid" placeholder="Your Email ID">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block";  
+}
+</script>
+
+</body>
+</html>
