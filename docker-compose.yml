@@ -1,0 +1,62 @@
+version: '3'
+services:
+  gettimedata:
+    image: patilajit21/gettimedata:1
+    depends_on:
+      - timetrackerlegacy
+      - apigateway
+      - eurekaserver
+    networks:
+      - mt-network
+    ports:
+      - 8763:8763
+  createtimedata:
+    image: patilajit21/createtimedata:1
+    depends_on:
+      - timetrackerlegacy
+      - apigateway
+      - eurekaserver
+    networks:
+      - mt-network
+    ports:
+      - 8762:8762
+  apigateway:
+    image: patilajit21/apigateway:1
+    depends_on:
+      - timetrackerlegacy
+      - eurekaserver
+    networks:
+      - mt-network
+    ports:
+      - 8090:8090
+  eurekaserver:
+    image: patilajit21/eurekaserver:1
+    depends_on:
+      - timetrackerlegacy
+    networks:
+      - mt-network
+    ports:
+      - 8761:8761
+  uiserver:
+    image: patilajit21/uiserver:1
+    depends_on:
+      - timetrackerlegacy
+      - eurekaserver
+      - apigateway
+      - gettimedata
+      - createtimedata
+    links:
+      - apigateway
+    networks:
+      - mt-network
+    ports:
+      - 8764:8764
+  timetrackerlegacy:
+    image: alirizasaral/timetracker:1
+    networks:
+      - mt-network
+    ports:
+      - 8080:8080
+networks:
+  mt-network:
+    driver: bridge

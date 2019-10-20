@@ -1,0 +1,869 @@
+Attaching to timetracker_timetrackerlegacy_1, timetracker_uiserver_1, timetracker_apigateway_1, timetracker_gettimedata_1, timetracker_createtimedata_1
+[36mtimetrackerlegacy_1  |[0m Listening for transport dt_socket at address: 8787
+[36mtimetrackerlegacy_1  |[0m 
+[36mtimetrackerlegacy_1  |[0m   .   ____          _            __ _ _
+[36mtimetrackerlegacy_1  |[0m  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[36mtimetrackerlegacy_1  |[0m ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[36mtimetrackerlegacy_1  |[0m  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[36mtimetrackerlegacy_1  |[0m   '  |____| .__|_| |_|_| |_\__, | / / / /
+[36mtimetrackerlegacy_1  |[0m  =========|_|==============|___/=/_/_/_/
+[36mtimetrackerlegacy_1  |[0m  :: Spring Boot ::        (v1.4.0.RELEASE)
+[36mtimetrackerlegacy_1  |[0m 
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:10.112  INFO 1 --- [           main] c.s.e.c.EmployeeControllerApplication    : Starting EmployeeControllerApplication v0.0.1-SNAPSHOT on c336288c3148 with PID 1 (/app.jar started by root in /)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:10.182  INFO 1 --- [           main] c.s.e.c.EmployeeControllerApplication    : No active profile set, falling back to default profiles: default
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:11.684  INFO 1 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1622f1b: startup date [Sat Oct 19 15:14:11 GMT 2019]; root of context hierarchy
+[32mapigateway_1         |[0m 2019-10-19 15:14:27.786  INFO [-,,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be554cc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[33muiserver_1           |[0m 2019-10-19 15:14:28.513  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17e3a863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[32mapigateway_1         |[0m 
+[32mapigateway_1         |[0m   .   ____          _            __ _ _
+[32mapigateway_1         |[0m  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[32mapigateway_1         |[0m ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[32mapigateway_1         |[0m  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[32mapigateway_1         |[0m   '  |____| .__|_| |_|_| |_\__, | / / / /
+[32mapigateway_1         |[0m  =========|_|==============|___/=/_/_/_/
+[32mapigateway_1         |[0m  :: Spring Boot ::        (v2.1.7.RELEASE)
+[32mapigateway_1         |[0m 
+[32mapigateway_1         |[0m 2019-10-19 15:14:31.336  INFO [zuul-server,,,] 1 --- [           main] c.time.zuulserver.ZuulServerApplication  : No active profile set, falling back to default profiles: default
+[35mgettimedata_1        |[0m 2019-10-19 15:14:33.067  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$513db398] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[33muiserver_1           |[0m 
+[33muiserver_1           |[0m   .   ____          _            __ _ _
+[33muiserver_1           |[0m  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+[33muiserver_1           |[0m ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+[33muiserver_1           |[0m  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+[33muiserver_1           |[0m   '  |____| .__|_| |_|_| |_\__, | / / / /
+[33muiserver_1           |[0m  =========|_|==============|___/=/_/_/_/
+[33muiserver_1           |[0m  :: Spring Boot ::        (v2.1.7.RELEASE)
+[33muiserver_1           |[0m 
+[33muiserver_1           |[0m 2019-10-19 15:14:35.316  INFO 1 --- [           main] c.t.g.TimetrackerMainappApplication      : No active profile set, falling back to default profiles: default
+[31mcreatetimedata_1     |[0m 2019-10-19 15:14:36.414  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46248aba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[35mgettimedata_1        |[0m 2019-10-19 15:14:36.907  INFO 1 --- [           main] .g.GetTimetrackingdataServiceApplication : No active profile set, falling back to default profiles: default
+[31mcreatetimedata_1     |[0m 2019-10-19 15:14:38.852  INFO 1 --- [           main] CreateTimetrackingdataServiceApplication : No active profile set, falling back to default profiles: default
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:48.452  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:48.868  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:48.898  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.4
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:51.092  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:51.129  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 39546 ms
+[32mapigateway_1         |[0m 2019-10-19 15:14:52.080  WARN [zuul-server,,,] 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[32mapigateway_1         |[0m 2019-10-19 15:14:54.186  WARN [zuul-server,,,] 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:56.445  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:56.623  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:56.655  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:56.669  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:14:56.675  INFO 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+[35mgettimedata_1        |[0m 2019-10-19 15:14:57.704  WARN 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[33muiserver_1           |[0m 2019-10-19 15:14:57.945  WARN 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:00.298  WARN 1 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[32mapigateway_1         |[0m 2019-10-19 15:15:05.953  INFO [zuul-server,,,] 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7c8a043d-4514-3e85-91fa-804a668c0e99
+[35mgettimedata_1        |[0m 2019-10-19 15:15:06.825  INFO 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c5e6c6f9-cb14-36ef-9ceb-c6241f73ec19
+[33muiserver_1           |[0m 2019-10-19 15:15:07.941  INFO 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=63e39ff0-e99e-31cf-bb6b-8035d17afd89
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:09.894  INFO 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f786fe1c-7514-36f3-9c1f-88331070fa55
+[35mgettimedata_1        |[0m 2019-10-19 15:15:12.710  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$513db398] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:13.713  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1622f1b: startup date [Sat Oct 19 15:14:11 GMT 2019]; root of context hierarchy
+[33muiserver_1           |[0m 2019-10-19 15:15:14.120  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$17e3a863] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:15.839  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$46248aba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:16.773  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/records]}" onto public java.util.Collection<com.saral.employee.controller.model.TimeTrackRecord> com.saral.employee.controller.TimeTrackController.get(java.lang.String,int,int) throws java.lang.InterruptedException
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:16.783  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/records],methods=[POST]}" onto public com.saral.employee.controller.model.TimeTrackRecord com.saral.employee.controller.TimeTrackController.put(com.saral.employee.controller.model.TimeTrackRecord)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:16.866  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:16.882  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:18.170  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:18.185  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:19.608  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[32mapigateway_1         |[0m 2019-10-19 15:15:19.656  INFO [zuul-server,,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be554cc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[33muiserver_1           |[0m 2019-10-19 15:15:21.011  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+[35mgettimedata_1        |[0m 2019-10-19 15:15:21.370  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8763 (http)
+[33muiserver_1           |[0m 2019-10-19 15:15:21.932  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[33muiserver_1           |[0m 2019-10-19 15:15:21.934  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+[35mgettimedata_1        |[0m 2019-10-19 15:15:22.057  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[35mgettimedata_1        |[0m 2019-10-19 15:15:22.098  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:22.697  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:23.519  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:23.521  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+[35mgettimedata_1        |[0m 2019-10-19 15:15:24.358  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[35mgettimedata_1        |[0m 2019-10-19 15:15:24.367  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 47012 ms
+[33muiserver_1           |[0m 2019-10-19 15:15:24.677  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[33muiserver_1           |[0m 2019-10-19 15:15:24.685  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 49064 ms
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:25.352  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:25.353  INFO 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 46033 ms
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:25.477  INFO 1 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+[33muiserver_1           |[0m 2019-10-19 15:15:27.756  WARN 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[33muiserver_1           |[0m 2019-10-19 15:15:27.758  INFO 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:27.921  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:15:28.077  INFO 1 --- [           main] c.s.e.c.EmployeeControllerApplication    : Started EmployeeControllerApplication in 87.359 seconds (JVM running for 99.829)
+[33muiserver_1           |[0m 2019-10-19 15:15:28.300  INFO 1 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4a183d02
+[35mgettimedata_1        |[0m 2019-10-19 15:15:28.418  WARN 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[35mgettimedata_1        |[0m 2019-10-19 15:15:28.420  INFO 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[35mgettimedata_1        |[0m 2019-10-19 15:15:28.715  INFO 1 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3935e9a8
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:28.833  WARN 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:28.833  INFO 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:29.364  INFO 1 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5339bbad
+[32mapigateway_1         |[0m 2019-10-19 15:15:33.606  INFO [zuul-server,,,] 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+[32mapigateway_1         |[0m 2019-10-19 15:15:35.186  INFO [zuul-server,,,] 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+[32mapigateway_1         |[0m 2019-10-19 15:15:35.201  INFO [zuul-server,,,] 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+[32mapigateway_1         |[0m 2019-10-19 15:15:38.885  INFO [zuul-server,,,] 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[32mapigateway_1         |[0m 2019-10-19 15:15:38.887  INFO [zuul-server,,,] 1 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 67003 ms
+[35mgettimedata_1        |[0m 2019-10-19 15:15:41.680  WARN 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[35mgettimedata_1        |[0m 2019-10-19 15:15:41.681  INFO 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:42.221  WARN 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:42.221  INFO 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[32mapigateway_1         |[0m 2019-10-19 15:15:42.648  WARN [zuul-server,,,] 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[32mapigateway_1         |[0m 2019-10-19 15:15:42.651  INFO [zuul-server,,,] 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[32mapigateway_1         |[0m 2019-10-19 15:15:43.085  INFO [zuul-server,,,] 1 --- [           main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7f9ab969
+[35mgettimedata_1        |[0m 2019-10-19 15:15:45.446  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[33muiserver_1           |[0m 2019-10-19 15:15:45.589  INFO 1 --- [           main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:46.238  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[33muiserver_1           |[0m WARNING: An illegal reflective access operation has occurred
+[33muiserver_1           |[0m WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (jar:file:/usr/apps/timetracker-mainapp-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/) to field java.util.TreeMap.comparator
+[33muiserver_1           |[0m WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+[33muiserver_1           |[0m WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[33muiserver_1           |[0m WARNING: All illegal access operations will be denied in a future release
+[35mgettimedata_1        |[0m 2019-10-19 15:15:56.732  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:57.268  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+[35mgettimedata_1        |[0m 2019-10-19 15:15:58.760  INFO 1 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+[31mcreatetimedata_1     |[0m 2019-10-19 15:15:59.893  INFO 1 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+[35mgettimedata_1        |[0m 2019-10-19 15:16:00.081  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:01.737  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+[33muiserver_1           |[0m 2019-10-19 15:16:03.940  WARN 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[33muiserver_1           |[0m 2019-10-19 15:16:03.963  INFO 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[35mgettimedata_1        |[0m 2019-10-19 15:16:11.239  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+[35mgettimedata_1        |[0m 2019-10-19 15:16:11.241  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:14.384  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:14.385  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+[33muiserver_1           |[0m 2019-10-19 15:16:16.185  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[35mgettimedata_1        |[0m WARNING: An illegal reflective access operation has occurred
+[35mgettimedata_1        |[0m WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (jar:file:/usr/apps/get-timetrackingdata-service-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/) to field java.util.TreeMap.comparator
+[35mgettimedata_1        |[0m WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+[35mgettimedata_1        |[0m WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[35mgettimedata_1        |[0m WARNING: All illegal access operations will be denied in a future release
+[31mcreatetimedata_1     |[0m WARNING: An illegal reflective access operation has occurred
+[31mcreatetimedata_1     |[0m WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (jar:file:/usr/apps/create-timetrackingdata-service-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/) to field java.util.TreeMap.comparator
+[31mcreatetimedata_1     |[0m WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+[31mcreatetimedata_1     |[0m WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[31mcreatetimedata_1     |[0m WARNING: All illegal access operations will be denied in a future release
+[35mgettimedata_1        |[0m 2019-10-19 15:16:18.382  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+[35mgettimedata_1        |[0m 2019-10-19 15:16:18.382  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:19.007  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:19.081  INFO 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+[33muiserver_1           |[0m 2019-10-19 15:16:19.215  INFO 1 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+[35mgettimedata_1        |[0m 2019-10-19 15:16:22.942  INFO 1 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[32mapigateway_1         |[0m 2019-10-19 15:16:23.839  WARN [zuul-server,,,] 1 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+[32mapigateway_1         |[0m 2019-10-19 15:16:23.857  INFO [zuul-server,,,] 1 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.920  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.920  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.929  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.930  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.930  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.949  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+[35mgettimedata_1        |[0m 2019-10-19 15:16:23.970  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.156  INFO 1 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.832  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.834  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.838  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.840  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.843  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.847  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:24.847  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.166 ERROR 1 --- [           main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://uiserver:8761/eureka/}
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:302) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58a6acb7.CGLIB$eurekaClient$0(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58a6acb7$$FastClassBySpringCGLIB$$47453bd1.invoke(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58a6acb7.eurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:171) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:160) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[35mgettimedata_1        |[0m 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$1f7b5f54.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:82) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at com.time.gettime.GetTimetrackingdataServiceApplication.main(GetTimetrackingdataServiceApplication.java:12) ~[classes!/:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m Caused by: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	... 86 common frames omitted
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.191  WARN 1 --- [           main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.192 ERROR 1 --- [           main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763 - was unable to refresh its cache! status = Cannot execute request on any known server
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:302) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58a6acb7.CGLIB$eurekaClient$0(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58a6acb7$$FastClassBySpringCGLIB$$47453bd1.invoke(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58a6acb7.eurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:171) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:160) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[35mgettimedata_1        |[0m 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$1f7b5f54.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:82) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[35mgettimedata_1        |[0m 	at com.time.gettime.GetTimetrackingdataServiceApplication.main(GetTimetrackingdataServiceApplication.java:12) ~[classes!/:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[get-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.193  WARN 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.209  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.280  INFO 1 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.429  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1571498186385 with initial instances count: 0
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.434  INFO 1 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GET-TTD-SERVICE-V1 with eureka with status UP
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.485  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1571498186485, current=UP, previous=STARTING]
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.528 ERROR 1 --- [           main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://uiserver:8761/eureka/}
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:302) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4d8d83d9.CGLIB$eurekaClient$0(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4d8d83d9$$FastClassBySpringCGLIB$$b3746eae.invoke(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4d8d83d9.eurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:171) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:160) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[31mcreatetimedata_1     |[0m 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$c2f61ec4.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:82) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at com.time.createtime.CreateTimetrackingdataServiceApplication.main(CreateTimetrackingdataServiceApplication.java:12) ~[classes!/:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m Caused by: java.net.ConnectException: Connection refused (Connection refused)
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	... 86 common frames omitted
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.536  WARN 1 --- [           main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.537  INFO 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763: registering service...
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.569 ERROR 1 --- [           main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762 - was unable to refresh its cache! status = Cannot execute request on any known server
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:302) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4d8d83d9.CGLIB$eurekaClient$0(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4d8d83d9$$FastClassBySpringCGLIB$$b3746eae.invoke(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$4d8d83d9.eurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:356) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:171) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:160) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282) ~[spring-core-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:494) ~[spring-cloud-context-2.1.0.RC2.jar!/:2.1.0.RC2]
+[31mcreatetimedata_1     |[0m 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$c2f61ec4.getEurekaClient(<generated>) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:39) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:82) ~[spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/:2.1.0.RC3]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.9.RELEASE.jar!/:5.1.9.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:743) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:390) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1214) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1203) ~[spring-boot-2.1.7.RELEASE.jar!/:2.1.7.RELEASE]
+[31mcreatetimedata_1     |[0m 	at com.time.createtime.CreateTimetrackingdataServiceApplication.main(CreateTimetrackingdataServiceApplication.java:12) ~[classes!/:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:51) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:52) ~[create-timetrackingdata-service-0.0.1-SNAPSHOT.jar:0.0.1-SNAPSHOT]
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.596  WARN 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.622  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.692  INFO 1 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.802 ERROR 1 --- [nfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://uiserver:8761/eureka/}
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+[35mgettimedata_1        |[0m Caused by: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+[35mgettimedata_1        |[0m 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.9.jar!/:4.5.9]
+[35mgettimedata_1        |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[35mgettimedata_1        |[0m 	... 29 common frames omitted
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.809  WARN 1 --- [nfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.811  WARN 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763 - registration failed Cannot execute request on any known server
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m 2019-10-19 15:16:26.812  WARN 1 --- [nfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+[35mgettimedata_1        |[0m 
+[35mgettimedata_1        |[0m com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+[35mgettimedata_1        |[0m 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+[35mgettimedata_1        |[0m 
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.807  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1571498186737 with initial instances count: 0
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.825  INFO 1 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CREATE-TTD-SERVICE-V1 with eureka with status UP
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.845  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1571498186845, current=UP, previous=STARTING]
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.892  INFO 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762: registering service...
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:26.996 ERROR 1 --- [nfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://uiserver:8761/eureka/}
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+[31mcreatetimedata_1     |[0m Caused by: java.net.ConnectException: Connection refused (Connection refused)
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.9.jar!/:4.5.9]
+[31mcreatetimedata_1     |[0m 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar!/:1.19.1]
+[31mcreatetimedata_1     |[0m 	... 29 common frames omitted
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:27.036  WARN 1 --- [nfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:27.039  WARN 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762 - registration failed Cannot execute request on any known server
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:27.042  WARN 1 --- [nfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+[31mcreatetimedata_1     |[0m 
+[31mcreatetimedata_1     |[0m com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-1.9.8.jar!/:1.9.8]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+[31mcreatetimedata_1     |[0m 	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+[31mcreatetimedata_1     |[0m 
+[35mgettimedata_1        |[0m 2019-10-19 15:16:27.352  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8763 (http) with context path ''
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:27.362  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
+[35mgettimedata_1        |[0m 2019-10-19 15:16:27.420  INFO 1 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8763
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:27.493  INFO 1 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8762
+[35mgettimedata_1        |[0m 2019-10-19 15:16:27.569  INFO 1 --- [           main] .g.GetTimetrackingdataServiceApplication : Started GetTimetrackingdataServiceApplication in 137.187 seconds (JVM running for 147.725)
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:27.569  INFO 1 --- [           main] CreateTimetrackingdataServiceApplication : Started CreateTimetrackingdataServiceApplication in 137.599 seconds (JVM running for 147.345)
+[33muiserver_1           |[0m 2019-10-19 15:16:28.610  INFO 1 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+[32mapigateway_1         |[0m 2019-10-19 15:16:29.924  INFO [zuul-server,,,] 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+[33muiserver_1           |[0m 2019-10-19 15:16:36.416  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+[33muiserver_1           |[0m 2019-10-19 15:16:39.681  INFO 1 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application TIMETRACKER-MAINAPP with eureka with status UP
+[33muiserver_1           |[0m 2019-10-19 15:16:39.859  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+[33muiserver_1           |[0m 2019-10-19 15:16:39.910  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+[33muiserver_1           |[0m 2019-10-19 15:16:39.912  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+[33muiserver_1           |[0m 2019-10-19 15:16:40.159  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+[33muiserver_1           |[0m 2019-10-19 15:16:40.159  INFO 1 --- [      Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+[33muiserver_1           |[0m 2019-10-19 15:16:40.232  INFO 1 --- [      Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+[33muiserver_1           |[0m 2019-10-19 15:16:40.464  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+[33muiserver_1           |[0m 2019-10-19 15:16:40.466  INFO 1 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+[33muiserver_1           |[0m 2019-10-19 15:16:40.513  INFO 1 --- [           main] c.t.g.TimetrackerMainappApplication      : Started TimetrackerMainappApplication in 154.746 seconds (JVM running for 168.666)
+[32mapigateway_1         |[0m 2019-10-19 15:16:42.788  INFO [zuul-server,,,] 1 --- [           main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+[32mapigateway_1         |[0m 2019-10-19 15:16:43.167  INFO [zuul-server,,,] 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoint(s) beneath base path '/actuator'
+[32mapigateway_1         |[0m 2019-10-19 15:16:43.679  INFO [zuul-server,,,] 1 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+[32mapigateway_1         |[0m 2019-10-19 15:16:44.009  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+[32mapigateway_1         |[0m 2019-10-19 15:16:44.457  INFO [zuul-server,,,] 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+[32mapigateway_1         |[0m 2019-10-19 15:16:44.457  INFO [zuul-server,,,] 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+[32mapigateway_1         |[0m WARNING: An illegal reflective access operation has occurred
+[32mapigateway_1         |[0m WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (jar:file:/usr/apps/zuul-server-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/xstream-1.4.10.jar!/) to field java.util.TreeMap.comparator
+[32mapigateway_1         |[0m WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+[32mapigateway_1         |[0m WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+[32mapigateway_1         |[0m WARNING: All illegal access operations will be denied in a future release
+[32mapigateway_1         |[0m 2019-10-19 15:16:45.650  INFO [zuul-server,,,] 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+[32mapigateway_1         |[0m 2019-10-19 15:16:45.650  INFO [zuul-server,,,] 1 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+[32mapigateway_1         |[0m 2019-10-19 15:16:46.849  INFO [zuul-server,,,] 1 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.018  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.029  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.035  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.036  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.037  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.038  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+[32mapigateway_1         |[0m 2019-10-19 15:16:47.039  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[33muiserver_1           |[0m 2019-10-19 15:16:48.237  INFO 1 --- [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[33muiserver_1           |[0m 2019-10-19 15:16:48.237  INFO 1 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+[33muiserver_1           |[0m 2019-10-19 15:16:48.326  INFO 1 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 88 ms
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.773  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.799  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.806  INFO [zuul-server,,,] 1 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.848  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1571498208824 with initial instances count: 0
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.906  INFO [zuul-server,,,] 1 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ZUUL-SERVER with eureka with status UP
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.917  INFO [zuul-server,,,] 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1571498208917, current=UP, previous=STARTING]
+[32mapigateway_1         |[0m 2019-10-19 15:16:48.954  INFO [zuul-server,,,] 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ZUUL-SERVER/ceb7461facd9:zuul-server:8090: registering service...
+[32mapigateway_1         |[0m 2019-10-19 15:16:49.474  INFO [zuul-server,,,] 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+[32mapigateway_1         |[0m 2019-10-19 15:16:49.482  INFO [zuul-server,,,] 1 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+[32mapigateway_1         |[0m 2019-10-19 15:16:49.564  INFO [zuul-server,,,] 1 --- [           main] c.time.zuulserver.ZuulServerApplication  : Started ZuulServerApplication in 162.933 seconds (JVM running for 175.133)
+[32mapigateway_1         |[0m 2019-10-19 15:16:50.469  INFO [zuul-server,,,] 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ZUUL-SERVER/ceb7461facd9:zuul-server:8090 - registration status: 204
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.207  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.207  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.208  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.209  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.209  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.209  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.209  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.628  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.628  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.629  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.629  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.629  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.629  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:56.629  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[35mgettimedata_1        |[0m 2019-10-19 15:16:56.822  INFO 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763: registering service...
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:57.060  INFO 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762: registering service...
+[35mgettimedata_1        |[0m 2019-10-19 15:16:57.893  INFO 1 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763 - Re-registering apps/GET-TTD-SERVICE-V1
+[35mgettimedata_1        |[0m 2019-10-19 15:16:58.102  INFO 1 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763: registering service...
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:58.297  INFO 1 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762 - Re-registering apps/CREATE-TTD-SERVICE-V1
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:58.300  INFO 1 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762: registering service...
+[35mgettimedata_1        |[0m 2019-10-19 15:16:58.572  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:58.666  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+[35mgettimedata_1        |[0m 2019-10-19 15:16:59.007  INFO 1 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763 - registration status: 204
+[35mgettimedata_1        |[0m 2019-10-19 15:16:59.031  INFO 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GET-TTD-SERVICE-V1/1165c2307b52:get-ttd-service-v1:8763 - registration status: 204
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:59.255  INFO 1 --- [tbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762 - registration status: 204
+[31mcreatetimedata_1     |[0m 2019-10-19 15:16:59.273  INFO 1 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREATE-TTD-SERVICE-V1/5fa16888fe3f:create-ttd-service-v1:8762 - registration status: 204
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.807  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.807  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.808  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.808  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.808  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.808  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+[32mapigateway_1         |[0m 2019-10-19 15:17:18.809  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[32mapigateway_1         |[0m 2019-10-19 15:17:19.219  INFO [zuul-server,,,] 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.584  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.587  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.600  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.601  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.602  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.602  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.602  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.681  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.681  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.681  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.681  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.682  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.682  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.682  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+[31mcreatetimedata_1     |[0m 2019-10-19 15:17:28.945  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+[35mgettimedata_1        |[0m 2019-10-19 15:17:28.963  INFO 1 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+[32mapigateway_1         |[0m 2019-10-19 15:17:56.525  INFO [zuul-server,,,] 1 --- [nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32mapigateway_1         |[0m 2019-10-19 15:17:56.526  INFO [zuul-server,,,] 1 --- [nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+[32mapigateway_1         |[0m 2019-10-19 15:17:56.622  INFO [zuul-server,,,] 1 --- [nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 96 ms
+[32mapigateway_1         |[0m 2019-10-19 15:17:58.217  INFO [zuul-server,90f2af2447ca5869,90f2af2447ca5869,true] 1 --- [nio-8090-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: get-ttd-service-v1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[32mapigateway_1         |[0m 2019-10-19 15:17:58.393  INFO [zuul-server,90f2af2447ca5869,90f2af2447ca5869,true] 1 --- [nio-8090-exec-2] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-get-ttd-service-v1
+[32mapigateway_1         |[0m 2019-10-19 15:17:58.404  INFO [zuul-server,90f2af2447ca5869,90f2af2447ca5869,true] 1 --- [nio-8090-exec-2] c.netflix.loadbalancer.BaseLoadBalancer  : Client: get-ttd-service-v1 instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=get-ttd-service-v1,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[32mapigateway_1         |[0m 2019-10-19 15:17:58.443  INFO [zuul-server,90f2af2447ca5869,90f2af2447ca5869,true] 1 --- [nio-8090-exec-2] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+[32mapigateway_1         |[0m 2019-10-19 15:17:58.623  INFO [zuul-server,90f2af2447ca5869,90f2af2447ca5869,true] 1 --- [nio-8090-exec-2] c.netflix.config.ChainedDynamicProperty  : Flipping property: get-ttd-service-v1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[32mapigateway_1         |[0m 2019-10-19 15:17:58.655  INFO [zuul-server,90f2af2447ca5869,90f2af2447ca5869,true] 1 --- [nio-8090-exec-2] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client get-ttd-service-v1 initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=get-ttd-service-v1,current list of Servers=[1165c2307b52:8763],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+[32mapigateway_1         |[0m },Server stats: [[Server:1165c2307b52:8763;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 00:00:00 UTC 1970;	First connection made: Thu Jan 01 00:00:00 UTC 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+[32mapigateway_1         |[0m ]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5f721e5
+[32mapigateway_1         |[0m 2019-10-19 15:17:59.470  INFO [zuul-server,,,] 1 --- [erListUpdater-0] c.netflix.config.ChainedDynamicProperty  : Flipping property: get-ttd-service-v1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[35mgettimedata_1        |[0m 2019-10-19 15:18:02.169  INFO 1 --- [nio-8763-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[35mgettimedata_1        |[0m 2019-10-19 15:18:02.172  INFO 1 --- [nio-8763-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+[35mgettimedata_1        |[0m 2019-10-19 15:18:02.820  INFO 1 --- [nio-8763-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 648 ms
+[32mapigateway_1         |[0m 2019-10-19 15:18:05.386  INFO [zuul-server,,,] 1 --- [ender@33cbfa57}] c.netflix.config.ChainedDynamicProperty  : Flipping property: localhost.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[32mapigateway_1         |[0m 2019-10-19 15:18:05.400  INFO [zuul-server,,,] 1 --- [ender@33cbfa57}] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-localhost
+[32mapigateway_1         |[0m 2019-10-19 15:18:05.401  INFO [zuul-server,,,] 1 --- [ender@33cbfa57}] c.netflix.loadbalancer.BaseLoadBalancer  : Client: localhost instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=localhost,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[32mapigateway_1         |[0m 2019-10-19 15:18:05.404  INFO [zuul-server,,,] 1 --- [ender@33cbfa57}] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+[32mapigateway_1         |[0m 2019-10-19 15:18:05.418  INFO [zuul-server,,,] 1 --- [ender@33cbfa57}] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client localhost initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=localhost,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7a327f4e
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:18:13.742  INFO 1 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:18:13.775  INFO 1 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+[36mtimetrackerlegacy_1  |[0m 2019-10-19 15:18:14.621  INFO 1 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 844 ms
+[35mgettimedata_1        |[0m command: curl "http://timetrackerlegacy:8080/records?email=aliriza.saral@gmail.com&length=10"
+[35mgettimedata_1        |[0m **********Get Output
+[35mgettimedata_1        |[0m command: curl "http://timetrackerlegacy:8080/records?email=aliriza.saral@gmail.com&length=10"
+[35mgettimedata_1        |[0m **********Get Output
+[35mgettimedata_1        |[0m 2019-10-19 15:21:24.079  INFO 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[31mcreatetimedata_1     |[0m 2019-10-19 15:21:25.036  INFO 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[32mapigateway_1         |[0m 2019-10-19 15:21:47.053  INFO [zuul-server,,,] 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[35mgettimedata_1        |[0m command: curl "http://timetrackerlegacy:8080/records?email=aliriza.saral@gmail.com&length=10"
+[35mgettimedata_1        |[0m **********Get Output
+[35mgettimedata_1        |[0m command: curl "http://timetrackerlegacy:8080/records?email=aliriza.saral@gmail.com&length=10"
+[35mgettimedata_1        |[0m **********Get Output
+[35mgettimedata_1        |[0m 2019-10-19 15:26:24.082  INFO 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[31mcreatetimedata_1     |[0m 2019-10-19 15:26:25.229  INFO 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[32mapigateway_1         |[0m 2019-10-19 15:26:47.059  INFO [zuul-server,,,] 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[35mgettimedata_1        |[0m 2019-10-19 15:31:24.087  INFO 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[31mcreatetimedata_1     |[0m 2019-10-19 15:31:25.232  INFO 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+[32mapigateway_1         |[0m 2019-10-19 15:31:47.062  INFO [zuul-server,,,] 1 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+Gracefully stopping... (press Ctrl+C again to force)
